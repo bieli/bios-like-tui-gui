@@ -1,11 +1,11 @@
 mod app;
 mod renderer;
-//mod tui_renderer;
+mod tui_renderer;
 mod gui_renderer;
 
 use app::BiosApp;
 use renderer::Renderer;
-//use tui_renderer::TuiRenderer;
+use tui_renderer::TuiRenderer;
 use gui_renderer::GuiRenderer;
 
 fn main() {
@@ -19,8 +19,8 @@ fn main() {
             renderer.run(&mut app);
         }
         _ => {
-            //let mut renderer = TuiRenderer;
-            //renderer.run(&mut app);
+            let mut renderer = TuiRenderer;
+            renderer.run(&mut app);
         }
     }
 }

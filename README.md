@@ -14,7 +14,7 @@ Maybe someone would like to create simulation or game or tool with that code - f
 
 ### TUI version
 
-##### TODO
+![BIOS GUI example2](assets/bios-like-tui-gui__gui_example2.png)
 
 ### GUI version
 
